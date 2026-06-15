@@ -1,704 +1,1668 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profesyonel Web Geliştirme ve Dijital Pazarlama Paketleri</title>
-    <style>
-        :root {
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
-            --primary-light: #3b82f6;
-            --secondary: #0f172a;
-            --accent: #10b981;
-            --accent-light: #34d399;
-            --bg-light: #f8fafc;
-            --text-dark: #1e293b;
-            --text-muted: #64748b;
-            --white: #ffffff;
-            --border: #e2e8f0;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-            --shadow: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -1px rgba(0,0,0,0.04);
-            --shadow-lg: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
-            --radius: 16px;
-            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#10243f" />
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+  <title>İstanbul Gömme Rezervuar Tamiri | Vitra, Kale, Siamp, Serel, Creavit ve Japar Servisi</title>
+  <meta name="description" content="İstanbul'da gömme rezervuar tamiri, rezervuar servisi ve yedek parça hizmeti. Vitra, Kale, Siamp, Serel, Creavit ve Japar marka rezervuarlarda aynı gün servis." />
+  <meta name="keywords" content="rezervuar tamiri, gömme rezervuar tamiri, rezervuar servisi, klozet rezervuar tamiri, rezervuar ustası, rezervuar tamircisi, rezervuar su kaçırıyor, rezervuar sürekli su akıtıyor, gömme rezervuar su kaçırıyor, rezervuar iç takım değişimi, rezervuar mekanizması değişimi, rezervuar yedek parça, Vitra gömme rezervuar tamiri, Vitra rezervuar servisi, Vitra rezervuar yedek parça, Vitra rezervuar su kaçırıyor, Kale gömme rezervuar tamiri, Kale rezervuar servisi, Kale rezervuar iç takım, Siamp rezervuar tamiri, Siamp iç takım değişimi, Serel rezervuar servisi, Serel rezervuar tamiri, Creavit rezervuar tamiri, Creavit gömme rezervuar servisi, Japar rezervuar tamiri, Japar gömme rezervuar servisi, İstanbul rezervuar tamiri, İstanbul gömme rezervuar tamiri, Avrupa Yakası rezervuar servisi, Esenyurt rezervuar tamiri, Beylikdüzü rezervuar tamiri, Avcılar rezervuar tamiri, Büyükçekmece rezervuar tamiri, Küçükçekmece rezervuar tamiri, Başakşehir rezervuar tamiri" />
 
-        body {
-            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: var(--bg-light);
-            color: var(--text-dark);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
+  <meta property="og:title" content="İstanbul Gömme Rezervuar Tamiri | Vitra, Kale, Siamp, Serel, Creavit ve Japar Servisi" />
+  <meta property="og:description" content="İstanbul'da rezervuar tamiri, gömme rezervuar servisi, iç takım değişimi ve yedek parça hizmeti. Aynı gün gezici servis." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.istanbulrezervuar.com/" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="Servis Rezervuar" />
 
-        /* Header */
-        header {
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-            color: var(--white);
-            padding: 100px 20px 80px;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
+  <link rel="canonical" href="https://www.istanbulrezervuar.com/" />
 
-        header::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle at 30% 50%, rgba(37, 99, 235, 0.15) 0%, transparent 50%),
-                radial-gradient(circle at 70% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
-            animation: headerPulse 12s ease-in-out infinite alternate;
-        }
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Plumber",
+    "name": "Servis Rezervuar",
+    "alternateName": "İstanbul Rezervuar Servisi",
+    "url": "https://www.istanbulrezervuar.com",
+    "telephone": "+905321511726",
+    "priceRange": "₺₺",
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "İstanbul"
+    },
+    "employee": {
+      "@type": "Person",
+      "name": "Gökhan Yardımcı",
+      "jobTitle": "Yetkili Servis Teknisyeni"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }],
+    "knowsAbout": [
+      "Gömme rezervuar tamiri",
+      "Rezervuar tamiri",
+      "Rezervuar servisi",
+      "Klozet rezervuar tamiri",
+      "Rezervuar su kaçırıyor",
+      "Rezervuar sürekli su akıtıyor",
+      "Gömme rezervuar su kaçırıyor",
+      "Rezervuar iç takım değişimi",
+      "Rezervuar mekanizma değişimi",
+      "Rezervuar yedek parça",
+      "Vitra rezervuar",
+      "Kale rezervuar",
+      "Siamp mekanizma",
+      "Serel rezervuar",
+      "Creavit rezervuar",
+      "Japar rezervuar",
+      "İstanbul rezervuar tamiri",
+      "Avrupa Yakası rezervuar servisi",
+      "Esenyurt rezervuar tamiri",
+      "Beylikdüzü rezervuar tamiri"
+    ]
+  }
+  </script>
 
-        @keyframes headerPulse {
-            0% { transform: scale(1) rotate(0deg); }
-            100% { transform: scale(1.1) rotate(3deg); }
-        }
+  <style>
+    :root {
+      --ink: #152033;
+      --muted: #64748b;
+      --line: #dbe5ef;
+      --soft: #f5f8fb;
+      --navy: #10243f;
+      --navy-2: #17345d;
+      --blue: #1d6fd6;
+      --teal: #0e9f9a;
+      --gold: #d99a22;
+      --green: #22c55e;
+      --white: #ffffff;
+      --shadow: 0 18px 45px rgba(16, 36, 63, .12);
+      --shadow-soft: 0 10px 25px rgba(16, 36, 63, .08);
+      --radius: 8px;
+      --container: 1160px;
+    }
 
-        header .header-content {
-            position: relative;
-            z-index: 1;
-            max-width: 800px;
-            margin: 0 auto;
-        }
+    * { box-sizing: border-box; }
 
-        header h1 {
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            margin-bottom: 1.2rem;
-            font-weight: 800;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-            background: linear-gradient(to right, #fff, #e2e8f0);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+    html {
+      scroll-behavior: smooth;
+      text-size-adjust: 100%;
+    }
 
-        header p {
-            font-size: 1.25rem;
-            color: #94a3b8;
-            max-width: 650px;
-            margin: 0 auto;
-            font-weight: 400;
-        }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.55;
+    }
 
-        .header-wave {
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: 0;
-            z-index: 2;
-        }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-        .header-wave svg {
-            position: relative;
-            display: block;
-            width: calc(100% + 1.3px);
-            height: 70px;
-        }
+    img, svg {
+      display: block;
+      max-width: 100%;
+    }
 
-        .header-wave .shape-fill {
-            fill: #f8fafc;
-        }
+    button {
+      font: inherit;
+    }
 
-        /* Container */
-        .container {
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 0 24px 60px;
-            position: relative;
-            z-index: 3;
-        }
+    .container {
+      width: min(var(--container), calc(100% - 32px));
+      margin: 0 auto;
+    }
 
-        /* Notice */
-        .notice-bar {
-            background: #fffbeb;
-            border-left: 5px solid #f59e0b;
-            color: #92400e;
-            padding: 18px 24px;
-            border-radius: 12px;
-            margin: -30px 0 40px;
-            box-shadow: var(--shadow);
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            animation: fadeInUp 0.6s ease-out;
-        }
+    .skip-link {
+      position: absolute;
+      left: 16px;
+      top: -60px;
+      z-index: 100;
+      padding: 10px 14px;
+      border-radius: var(--radius);
+      background: var(--white);
+      color: var(--navy);
+      box-shadow: var(--shadow-soft);
+      transition: top .2s ease;
+    }
 
-        .notice-bar::before {
-            content: 'ⓘ';
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
+    .skip-link:focus { top: 12px; }
 
-        /* Grid */
-        .grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-            justify-content: center;
-            perspective: 1000px;
-        }
+    .top-strip {
+      background: #0b1b30;
+      color: #d8e6f7;
+      font-size: 13px;
+    }
 
-        /* Card */
-        .card {
-            background: var(--white);
-            border-radius: var(--radius);
-            padding: 40px 32px;
-            box-shadow: var(--shadow);
-            border: 1px solid var(--border);
-            flex: 1 1 320px;
-            max-width: 380px;
-            min-width: 300px;
-            position: relative;
-            transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.4s ease;
-            display: flex;
-            flex-direction: column;
-            animation: fadeInUp 0.6s ease-out backwards;
-        }
+    .top-strip .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      min-height: 38px;
+    }
 
-        .card:nth-child(1) { animation-delay: 0.1s; }
-        .card:nth-child(2) { animation-delay: 0.25s; }
-        .card:nth-child(3) { animation-delay: 0.4s; }
+    .top-strip strong { color: var(--white); }
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+    .top-strip-links {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      white-space: nowrap;
+    }
 
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--shadow-lg);
-        }
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, .94);
+      border-bottom: 1px solid rgba(219, 229, 239, .9);
+      backdrop-filter: blur(16px);
+      transition: box-shadow .2s ease;
+    }
 
-        .card.featured {
-            border: 2px solid var(--primary);
-            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1), var(--shadow);
-            transform: scale(1.03);
-            z-index: 2;
-        }
+    .site-header.is-scrolled {
+      box-shadow: 0 12px 30px rgba(16, 36, 63, .1);
+    }
 
-        .card.featured:hover {
-            transform: scale(1.03) translateY(-10px);
-            box-shadow: 0 0 0 8px rgba(37, 99, 235, 0.08), var(--shadow-lg);
-        }
+    .nav-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 76px;
+    }
 
-        .badge {
-            position: absolute;
-            top: -16px;
-            right: 24px;
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            color: white;
-            padding: 8px 20px;
-            border-radius: 30px;
-            font-size: 0.8rem;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
-        }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 220px;
+    }
 
-        .icon-circle {
-            width: 56px;
-            height: 56px;
-            border-radius: 16px;
-            background: #f1f5f9;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 24px;
-            font-size: 1.8rem;
-        }
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius);
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: linear-gradient(135deg, var(--navy), var(--teal));
+      box-shadow: 0 10px 25px rgba(14, 159, 154, .22);
+    }
 
-        .card.featured .icon-circle {
-            background: #eff6ff;
-            color: var(--primary);
-        }
+    .brand-title {
+      display: block;
+      color: var(--navy);
+      font-weight: 850;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
 
-        .card h2 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--secondary);
-            margin-bottom: 8px;
-        }
+    .brand-subtitle {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
 
-        .card .description {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            margin-bottom: 28px;
-            min-height: 45px;
-        }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      color: #42526a;
+      font-size: 14px;
+      font-weight: 750;
+    }
 
-        .price-box {
-            background: #f8fafc;
-            border-radius: 12px;
-            padding: 24px 20px;
-            margin-bottom: 28px;
-            text-align: center;
-        }
+    .nav-links a {
+      position: relative;
+      padding: 8px 0;
+    }
 
-        .price-label {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 2px;
+      height: 2px;
+      background: var(--teal);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .2s ease;
+    }
 
-        .price {
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: var(--secondary);
-            line-height: 1;
-        }
+    .nav-links a:hover::after,
+    .nav-links a:focus-visible::after {
+      transform: scaleX(1);
+    }
 
-        .price span {
-            font-size: 1rem;
-            color: var(--text-muted);
-            font-weight: 400;
-        }
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
 
-        .price-note {
-            font-size: 0.85rem;
-            color: #94a3b8;
-            margin-top: 8px;
-        }
+    .menu-button {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      color: var(--navy);
+      cursor: pointer;
+    }
 
-        .features-list {
-            list-style: none;
-            margin-bottom: 32px;
-            flex-grow: 1;
-        }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 46px;
+      padding: 12px 18px;
+      border: 1px solid transparent;
+      border-radius: var(--radius);
+      font-weight: 850;
+      line-height: 1.1;
+      transition: transform .18s ease, background .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
 
-        .features-list li {
-            font-size: 0.95rem;
-            margin-bottom: 14px;
-            position: relative;
-            padding-left: 30px;
-            color: var(--text-dark);
-        }
+    .btn:hover {
+      transform: translateY(-1px);
+    }
 
-        .features-list li::before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: var(--accent);
-            font-weight: bold;
-            font-size: 1.1rem;
-        }
+    .btn-primary {
+      color: var(--white);
+      background: var(--green);
+      box-shadow: 0 12px 26px rgba(34, 197, 94, .22);
+    }
 
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            background: var(--secondary);
-            color: white;
-            padding: 15px 24px;
-            border-radius: 12px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: all 0.2s ease;
-            margin-top: auto;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            letter-spacing: 0.3px;
-        }
+    .btn-primary:hover {
+      background: #16a34a;
+    }
 
-        .card.featured .btn {
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-        }
+    .btn-secondary {
+      color: var(--navy);
+      background: var(--white);
+      border-color: #c9d7e6;
+      box-shadow: 0 10px 22px rgba(16, 36, 63, .08);
+    }
 
-        .btn:hover {
-            opacity: 0.92;
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-        }
+    .btn-dark {
+      color: var(--white);
+      background: var(--navy);
+      box-shadow: 0 14px 30px rgba(16, 36, 63, .22);
+    }
 
-        .btn:active {
-            transform: translateY(0);
-        }
+    .btn svg { width: 18px; height: 18px; flex: 0 0 auto; }
 
-        /* Modal */
-        .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(15, 23, 42, 0.7);
-            backdrop-filter: blur(5px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s ease, visibility 0.3s ease;
-            padding: 20px;
-        }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      color: var(--white);
+      background:
+        linear-gradient(90deg, rgba(12, 27, 48, .96) 0%, rgba(16, 36, 63, .9) 46%, rgba(16, 36, 63, .46) 100%),
+        radial-gradient(circle at 78% 25%, rgba(14, 159, 154, .55), transparent 32%),
+        linear-gradient(135deg, var(--navy), #203d67);
+    }
 
-        .modal-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: .16;
+      background-image:
+        linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
+      background-size: 52px 52px;
+    }
 
-        .modal {
-            background: white;
-            border-radius: 20px;
-            padding: 40px 32px;
-            max-width: 500px;
-            width: 100%;
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
-            transform: translateY(30px) scale(0.95);
-            transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-            position: relative;
-        }
+    .hero .container {
+      position: relative;
+      min-height: 640px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.02fr) minmax(320px, .8fr);
+      align-items: center;
+      gap: 44px;
+      padding: 70px 0 48px;
+    }
 
-        .modal-overlay.active .modal {
-            transform: translateY(0) scale(1);
-        }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      min-height: 34px;
+      padding: 7px 12px;
+      border: 1px solid rgba(185, 230, 229, .28);
+      border-radius: 999px;
+      color: #b9e6e5;
+      background: rgba(14, 159, 154, .15);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
 
-        .modal-close {
-            position: absolute;
-            top: 16px;
-            right: 20px;
-            background: none;
-            border: none;
-            font-size: 1.8rem;
-            cursor: pointer;
-            color: var(--text-muted);
-            transition: color 0.2s;
-            line-height: 1;
-        }
+    .eyebrow-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--green);
+      box-shadow: 0 0 0 6px rgba(34, 197, 94, .18);
+    }
 
-        .modal-close:hover {
-            color: var(--secondary);
-        }
+    h1, h2, h3 {
+      margin: 0;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
 
-        .modal h3 {
-            font-size: 1.8rem;
-            margin-bottom: 24px;
-            font-weight: 700;
-        }
+    h1 {
+      max-width: 760px;
+      margin-top: 24px;
+      font-size: clamp(38px, 6vw, 72px);
+      font-weight: 900;
+    }
 
-        .form-group {
-            margin-bottom: 20px;
-        }
+    .hero-lead {
+      max-width: 650px;
+      margin: 22px 0 0;
+      color: #d7e5f7;
+      font-size: clamp(16px, 2vw, 20px);
+    }
 
-        .form-group label {
-            display: block;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: var(--text-dark);
-            font-size: 0.9rem;
-        }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
 
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            width: 100%;
-            padding: 12px 16px;
-            border: 1px solid var(--border);
-            border-radius: 10px;
-            font-size: 1rem;
-            transition: border 0.2s, box-shadow 0.2s;
-            font-family: inherit;
-            background: #f9fafb;
-        }
+    .trust-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 640px;
+      margin-top: 34px;
+    }
 
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-            background: white;
-        }
+    .trust-item {
+      min-height: 92px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .08);
+    }
 
-        .form-submit {
-            background: var(--primary);
-            color: white;
-            border: none;
-            padding: 14px 28px;
-            border-radius: 10px;
-            font-weight: 600;
-            font-size: 1rem;
-            cursor: pointer;
-            width: 100%;
-            transition: background 0.2s;
-        }
+    .trust-value {
+      display: block;
+      color: var(--white);
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 1;
+    }
 
-        .form-submit:hover {
-            background: var(--primary-dark);
-        }
+    .trust-label {
+      display: block;
+      margin-top: 8px;
+      color: #c6d8ec;
+      font-size: 13px;
+      font-weight: 700;
+    }
 
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 40px 24px;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            border-top: 1px solid var(--border);
-            background: white;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
+    .hero-visual {
+      align-self: stretch;
+      min-height: 470px;
+      display: grid;
+      place-items: center;
+    }
 
-        .footer-social {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            font-size: 1.5rem;
-        }
+    .service-illustration {
+      width: min(100%, 430px);
+      aspect-ratio: 4 / 5;
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.13), rgba(255,255,255,.05)),
+        rgba(255, 255, 255, .08);
+      box-shadow: 0 28px 70px rgba(0, 0, 0, .22);
+      overflow: hidden;
+    }
 
-        .footer-social a {
-            color: var(--text-muted);
-            transition: color 0.2s;
-            text-decoration: none;
-        }
+    .section {
+      padding: 86px 0;
+    }
 
-        .footer-social a:hover {
-            color: var(--primary);
-        }
+    .section-soft {
+      background: var(--soft);
+    }
 
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .card {
-                flex: 1 1 calc(50% - 30px);
-                max-width: 400px;
-            }
-            .card.featured {
-                transform: none;
-            }
-            .card.featured:hover {
-                transform: translateY(-10px);
-            }
-        }
+    .section-dark {
+      color: var(--white);
+      background: var(--navy);
+    }
 
-        @media (max-width: 768px) {
-            header {
-                padding: 70px 20px 60px;
-            }
-            .grid {
-                gap: 24px;
-            }
-            .card {
-                flex: 1 1 100%;
-                max-width: 450px;
-                margin: 0 auto;
-            }
-            .card.featured {
-                transform: none;
-            }
-            .card.featured:hover {
-                transform: translateY(-8px);
-            }
-        }
-    </style>
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(260px, .45fr);
+      align-items: end;
+      gap: 32px;
+      margin-bottom: 34px;
+    }
+
+    .section-kicker {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .section h2 {
+      color: var(--navy);
+      font-size: clamp(30px, 4vw, 48px);
+      font-weight: 900;
+    }
+
+    .section-dark h2,
+    .section-dark .section-kicker {
+      color: var(--white);
+    }
+
+    .section-desc {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .section-dark .section-desc {
+      color: #c5d6eb;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .service-card {
+      min-height: 260px;
+      padding: 26px;
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow);
+    }
+
+    .icon-box {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--radius);
+      background: #e8f6f5;
+      color: var(--teal);
+    }
+
+    .icon-box.gold {
+      color: var(--gold);
+      background: #fbf3df;
+    }
+
+    .icon-box.blue {
+      color: var(--blue);
+      background: #eaf3ff;
+    }
+
+    .service-card h3 {
+      margin-top: 20px;
+      color: var(--navy);
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .service-card p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .keyword-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 18px;
+    }
+
+    .keyword-panel {
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .keyword-panel h3 {
+      color: var(--navy);
+      font-size: 22px;
+      font-weight: 900;
+    }
+
+    .keyword-panel p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .keyword-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .keyword-list li {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      padding: 7px 10px;
+      border: 1px solid #cfe0ee;
+      border-radius: var(--radius);
+      color: #24364d;
+      background: #f8fbff;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .keyword-list.strong li {
+      color: var(--navy);
+      background: #e8f6f5;
+      border-color: #bfe5e1;
+    }
+
+    .check-list {
+      display: grid;
+      gap: 10px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+      color: #3b4a60;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .check-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+    }
+
+    .check-list svg {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 auto;
+      color: var(--teal);
+      margin-top: 2px;
+    }
+
+    .process-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      align-items: center;
+    }
+
+    .process-list {
+      display: grid;
+      gap: 14px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      counter-reset: step;
+    }
+
+    .process-list li {
+      position: relative;
+      min-height: 92px;
+      padding: 22px 22px 22px 82px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow-soft);
+      counter-increment: step;
+    }
+
+    .process-list li::before {
+      content: counter(step, decimal-leading-zero);
+      position: absolute;
+      left: 22px;
+      top: 22px;
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--radius);
+      color: var(--white);
+      background: var(--navy);
+      font-weight: 900;
+    }
+
+    .process-list h3 {
+      color: var(--navy);
+      font-size: 17px;
+      font-weight: 900;
+    }
+
+    .process-list p {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .inspection-panel {
+      padding: 28px;
+      color: var(--white);
+      background:
+        linear-gradient(160deg, rgba(14, 159, 154, .2), transparent 36%),
+        var(--navy);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .inspection-panel h3 {
+      font-size: 28px;
+      font-weight: 900;
+    }
+
+    .inspection-panel p {
+      color: #d2e2f5;
+    }
+
+    .mini-stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .mini-stat {
+      min-height: 96px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .08);
+    }
+
+    .mini-stat strong {
+      display: block;
+      font-size: 25px;
+      line-height: 1;
+    }
+
+    .mini-stat span {
+      display: block;
+      margin-top: 8px;
+      color: #bfd1e7;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .brand-grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .brand-tile {
+      min-height: 88px;
+      display: grid;
+      place-items: center;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      color: var(--navy);
+      font-size: 18px;
+      font-weight: 900;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .brand-service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+
+    .brand-service {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .brand-service h3 {
+      color: var(--navy);
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .brand-service p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .local-keywords {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 22px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .local-keywords li {
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      padding: 10px 12px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      color: #e8f2ff;
+      background: rgba(255, 255, 255, .08);
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .area-layout {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 34px;
+      align-items: center;
+    }
+
+    .districts {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .districts span {
+      min-height: 42px;
+      display: grid;
+      place-items: center;
+      padding: 8px 10px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      color: #e8f2ff;
+      background: rgba(255, 255, 255, .08);
+      font-size: 13px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .guarantee-banner {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 18px;
+      align-items: center;
+      padding: 22px;
+      border-radius: var(--radius);
+      background: #fff8e8;
+      border: 1px solid #f4dfae;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .seal {
+      width: 64px;
+      height: 64px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: var(--white);
+      background: var(--gold);
+    }
+
+    .guarantee-banner strong {
+      display: block;
+      color: var(--navy);
+      font-size: 22px;
+      font-weight: 900;
+      line-height: 1.15;
+    }
+
+    .guarantee-banner span {
+      display: block;
+      margin-top: 6px;
+      color: #71511d;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .faq {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow-soft);
+    }
+
+    details + details {
+      margin-top: 12px;
+    }
+
+    summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px;
+      cursor: pointer;
+      color: var(--navy);
+      font-weight: 900;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    details p {
+      margin: 0;
+      padding: 0 20px 20px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .faq-arrow {
+      width: 20px;
+      height: 20px;
+      color: var(--teal);
+      transition: transform .2s ease;
+    }
+
+    details[open] .faq-arrow {
+      transform: rotate(180deg);
+    }
+
+    .cta {
+      padding: 70px 0;
+      color: var(--white);
+      background:
+        radial-gradient(circle at 12% 25%, rgba(14, 159, 154, .34), transparent 34%),
+        linear-gradient(135deg, #0b1b30, var(--navy-2));
+    }
+
+    .cta-box {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .cta h2 {
+      font-size: clamp(30px, 4vw, 48px);
+      font-weight: 900;
+    }
+
+    .cta p {
+      max-width: 700px;
+      margin: 14px 0 0;
+      color: #c7d8ec;
+    }
+
+    .site-footer {
+      color: #b9c5d4;
+      background: #071320;
+      padding: 46px 0 24px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr .8fr;
+      gap: 30px;
+    }
+
+    .site-footer h3 {
+      color: var(--white);
+      font-size: 17px;
+      font-weight: 900;
+    }
+
+    .site-footer p,
+    .site-footer a {
+      color: #b9c5d4;
+      font-size: 14px;
+    }
+
+    .site-footer a:hover { color: var(--white); }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 34px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, .1);
+      color: #8492a5;
+      font-size: 13px;
+    }
+
+    .sticky-call {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 60;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 54px;
+      padding: 14px 18px;
+      border-radius: 999px;
+      color: var(--white);
+      background: var(--green);
+      box-shadow: 0 18px 40px rgba(34, 197, 94, .32);
+      font-weight: 900;
+      transition: transform .18s ease, background .18s ease;
+    }
+
+    .sticky-call:hover {
+      transform: translateY(-2px);
+      background: #16a34a;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity .55s ease, transform .55s ease;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+
+    @media (max-width: 980px) {
+      .top-strip .container {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .top-strip-links { display: none; }
+
+      .nav-wrap { min-height: 68px; }
+
+      .menu-button {
+        display: grid;
+        place-items: center;
+      }
+
+      .nav-links {
+        position: absolute;
+        left: 16px;
+        right: 16px;
+        top: calc(100% + 8px);
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 10px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--white);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.is-open { display: flex; }
+
+      .nav-links a {
+        padding: 14px 12px;
+        border-radius: 6px;
+      }
+
+      .nav-links a:hover {
+        background: var(--soft);
+      }
+
+      .nav-links a::after { display: none; }
+
+      .nav-actions .btn-secondary { display: none; }
+
+      .hero .container {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+
+      .hero-visual {
+        min-height: auto;
+        place-items: start;
+      }
+
+      .service-illustration {
+        width: min(100%, 520px);
+        aspect-ratio: 16 / 10;
+      }
+
+      .section-head,
+      .process-wrap,
+      .area-layout,
+      .cta-box {
+        grid-template-columns: 1fr;
+      }
+
+      .brand-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .keyword-grid,
+      .brand-service-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .grid-3,
+      .grid-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .districts {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        width: min(100% - 24px, var(--container));
+      }
+
+      .brand { min-width: 0; }
+
+      .brand-subtitle { display: none; }
+
+      .nav-actions .btn-primary span { display: none; }
+
+      .hero .container {
+        padding-top: 48px;
+        padding-bottom: 36px;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .trust-row,
+      .grid-3,
+      .grid-4,
+      .mini-stats,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-item {
+        min-height: auto;
+      }
+
+      .section {
+        padding: 64px 0;
+      }
+
+      .brand-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .local-keywords {
+        grid-template-columns: 1fr;
+      }
+
+      .districts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .guarantee-banner {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+
+      .sticky-call {
+        left: 12px;
+        right: 12px;
+        justify-content: center;
+        bottom: 12px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <div class="header-content">
-            <h1>Dijital Varlık ve Geliştirme Çözümleri</h1>
-            <p>İhtiyacınıza özel, profesyonel web yazılım, altyapı ve dijital pazarlama yönetimi paketleri.</p>
-        </div>
-        <div class="header-wave">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-            </svg>
-        </div>
-    </header>
+  <a class="skip-link" href="#icerik">İçeriğe geç</a>
 
+  <div class="top-strip" role="note">
     <div class="container">
-        <div class="notice-bar">
-            <strong>Önemli Bilgilendirme:</strong> Domain (Alan Adı) ve Hosting altyapı maliyetleri müşteri tarafından karşılanacaktır. Altyapı kurulum ve entegrasyon süreçleri tarafımızca yürütülür.
-        </div>
-
-        <div class="grid">
-            <!-- Kart 1 -->
-            <div class="card">
-                <div class="icon-circle">🚀</div>
-                <h2>Temel Kurulum Paketi</h2>
-                <p class="description">Web dünyasına profesyonel ve hızlı bir başlangıç yapmak isteyenler için anahtar teslim kodlama çözümü.</p>
-                <div class="price-box">
-                    <p class="price-label">Tek Seferlik Kurulum Ücreti</p>
-                    <p class="price">8.000 ₺</p>
-                    <p class="price-note">(7.000 ₺ Kodlama + 1.000 ₺ Ulaşım/İhtiyaç)</p>
-                </div>
-                <ul class="features-list">
-                    <li><strong>Profesyonel Özel Kodlama</strong></li>
-                    <li>Müşteriye Ait Domain ve Hosting Entegrasyonu</li>
-                    <li>Mobil ve Tablet Uyumlu (Responsive) Tasarım</li>
-                    <li>Temel SEO Optimizasyonu ve Hız Kurulumları</li>
-                    <li>Modern İletişim Formları ve Lokasyon Entegrasyonu</li>
-                </ul>
-                <button class="btn" data-package="Temel Kurulum Paketi">Hemen Başvur ✦</button>
-            </div>
-
-            <!-- Kart 2 (Öne Çıkan) -->
-            <div class="card featured">
-                <div class="badge">En Çok Tercih Edilen</div>
-                <div class="icon-circle">📈</div>
-                <h2>Dijital Büyüme Paketi</h2>
-                <p class="description">Sosyal medya gücüyle web sitenizi entegre ederek müşteri kitlenizi ve trafiğinizi katlayın.</p>
-                <div class="price-box">
-                    <p class="price-label">Aylık Yönetim ve Danışmanlık</p>
-                    <p class="price">5.000 ₺ <span>/ Aylık</span></p>
-                </div>
-                <ul class="features-list">
-                    <li><strong>Instagram Reklam Yönetimi & Stratejisi</strong></li>
-                    <li><strong>YouTube İçerik ve Reklam Optimizasyonu</strong></li>
-                    <li>Hedef Kitle Analizi ve Dönüşüm Takibi</li>
-                    <li>Sosyal Medyadan Web Sitesine Düzenli Trafik Akışı</li>
-                    <li>Aylık Performans ve Verim Raporlaması</li>
-                </ul>
-                <button class="btn" data-package="Dijital Büyüme Paketi">Büyümeye Başla ✦</button>
-            </div>
-
-            <!-- Kart 3 -->
-            <div class="card">
-                <div class="icon-circle">🛡️</div>
-                <h2>Kesintisiz Destek & Bakım</h2>
-                <p class="description">Sitenizin her an güncel, güvenli ve yayında kalmasını sağlayan profesyonel teknik destek servisi.</p>
-                <div class="price-box">
-                    <p class="price-label">Aylık Servis Bedeli</p>
-                    <p class="price">1.500 ₺ <span>/ Aylık (+1)</span></p>
-                </div>
-                <ul class="features-list">
-                    <li><strong>7/24 Canlı Destek ve Servis Garantisi</strong></li>
-                    <li><strong>Sürekli Site Yenileme ve Modül Güncellemeleri</strong></li>
-                    <li>İçerik Metinleri ve Görsel Düzenleme Hizmetleri</li>
-                    <li>Sistem Güvenlik Kontrolleri ve Düzenli Yedekleme</li>
-                    <li>Teknik Aksaklıklara Anında Müdahale</li>
-                </ul>
-                <button class="btn" data-package="Kesintisiz Destek & Bakım">Destek Al ✦</button>
-            </div>
-        </div>
+      <span><strong>7/24 gezici servis:</strong> İstanbul Avrupa ve Anadolu Yakası</span>
+      <div class="top-strip-links">
+        <a href="tel:+905321511726">0532 151 17 26</a>
+        <a href="https://wa.me/905321511726?text=Merhaba,%20rezervuar%20ar%C4%B1zas%C4%B1%20i%C3%A7in%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener">WhatsApp destek</a>
+      </div>
     </div>
+  </div>
 
-    <!-- Modal -->
-    <div class="modal-overlay" id="modalOverlay">
-        <div class="modal">
-            <button class="modal-close" id="modalClose">&times;</button>
-            <h3>Hızlı Başvuru</h3>
-            <form id="contactForm">
-                <div class="form-group">
-                    <label for="name">Adınız Soyadınız *</label>
-                    <input type="text" id="name" name="name" required placeholder="Adınız ve soyadınız">
-                </div>
-                <div class="form-group">
-                    <label for="email">E-posta Adresiniz *</label>
-                    <input type="email" id="email" name="email" required placeholder="ornek@email.com">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Telefon Numaranız</label>
-                    <input type="tel" id="phone" name="phone" placeholder="05XX XXX XX XX">
-                </div>
-                <div class="form-group">
-                    <label for="package">İlgilendiğiniz Paket</label>
-                    <select id="package" name="package">
-                        <option value="">Seçiniz</option>
-                        <option value="Temel Kurulum Paketi">Temel Kurulum Paketi</option>
-                        <option value="Dijital Büyüme Paketi">Dijital Büyüme Paketi</option>
-                        <option value="Kesintisiz Destek & Bakım">Kesintisiz Destek & Bakım</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Mesajınız (Opsiyonel)</label>
-                    <textarea id="message" name="message" rows="3" placeholder="İhtiyaçlarınızı kısaca belirtin..."></textarea>
-                </div>
-                <button type="submit" class="form-submit">Gönder ✦</button>
-            </form>
-        </div>
+  <header class="site-header" id="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#icerik" aria-label="Servis Rezervuar ana sayfa">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2.75s-6.5 7.02-6.5 11.1a6.5 6.5 0 0 0 13 0C18.5 9.77 12 2.75 12 2.75Z" stroke="currentColor" stroke-width="2" />
+            <path d="M9 14h6M12 11v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span>
+          <span class="brand-title">Servis Rezervuar</span>
+          <span class="brand-subtitle">İstanbul geneli garantili servis</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Ana menü">
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#arama-terimleri">Aramalar</a>
+        <a href="#surec">Süreç</a>
+        <a href="#markalar">Markalar</a>
+        <a href="#bolgeler">Bölgeler</a>
+        <a href="#sss">SSS</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-secondary" href="tel:+905321511726" aria-label="Telefonla ara">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 4h3l1.2 4.2-2 1.2a12.3 12.3 0 0 0 7.4 7.4l1.2-2L20 16v3a1 1 0 0 1-1 1C10.7 20 4 13.3 4 5a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" /></svg>
+          Ara
+        </a>
+        <a class="btn btn-primary" href="https://wa.me/905321511726?text=Merhaba,%20rezervuar%20ar%C4%B1zas%C4%B1%20i%C3%A7in%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2A9.9 9.9 0 0 0 3.5 16.93L2.25 21.5l4.68-1.22A9.95 9.95 0 1 0 12.04 2Zm5.82 14.24c-.24.67-1.2 1.23-1.87 1.31-.5.06-1.13.09-1.82-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.8-4.17-4.95-4.36-.14-.19-1.18-1.57-1.18-3 0-1.43.75-2.13 1.02-2.42.27-.3.58-.37.78-.37h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.08.15.12.32.03.51-.09.2-.14.32-.29.49-.15.17-.31.38-.44.51-.15.14-.3.3-.13.59.17.29.74 1.22 1.58 1.98 1.09.97 2.01 1.27 2.3 1.41.29.15.46.12.63-.07.17-.2.72-.84.91-1.13.19-.29.39-.24.66-.15.27.1 1.72.81 2.01.95.29.15.49.22.56.34.07.13.07.73-.17 1.4Z" /></svg>
+          <span>WhatsApp</span>
+        </a>
+        <button class="menu-button" type="button" id="menu-button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="nav-links">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+        </button>
+      </div>
     </div>
+  </header>
 
-    <footer>
-        <div class="footer-social">
-            <a href="#" aria-label="Instagram">📷</a>
-            <a href="#" aria-label="YouTube">▶️</a>
-            <a href="#" aria-label="LinkedIn">💼</a>
-            <a href="#" aria-label="E-posta">✉️</a>
+  <main id="icerik">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Aynı gün müdahale | 1 yıl garanti</span>
+          <h1>İstanbul Gömme Rezervuar Tamiri</h1>
+          <p class="hero-lead">
+            Rezervuar tamiri, gömme rezervuar tamiri, klozet rezervuar tamiri, rezervuar iç takım değişimi ve rezervuar mekanizması değişimi için Vitra, Kale, Siamp, Serel, Creavit, Japar ve tüm markalarda profesyonel gezici servis.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/905321511726?text=Merhaba,%20rezervuar%20ar%C4%B1zas%C4%B1%20i%C3%A7in%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2A9.9 9.9 0 0 0 3.5 16.93L2.25 21.5l4.68-1.22A9.95 9.95 0 1 0 12.04 2Zm5.82 14.24c-.24.67-1.2 1.23-1.87 1.31-.5.06-1.13.09-1.82-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.8-4.17-4.95-4.36-.14-.19-1.18-1.57-1.18-3 0-1.43.75-2.13 1.02-2.42.27-.3.58-.37.78-.37h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.08.15.12.32.03.51-.09.2-.14.32-.29.49-.15.17-.31.38-.44.51-.15.14-.3.3-.13.59.17.29.74 1.22 1.58 1.98 1.09.97 2.01 1.27 2.3 1.41.29.15.46.12.63-.07.17-.2.72-.84.91-1.13.19-.29.39-.24.66-.15.27.1 1.72.81 2.01.95.29.15.49.22.56.34.07.13.07.73-.17 1.4Z" /></svg>
+              WhatsApp'tan Fiyat Al
+            </a>
+            <a class="btn btn-secondary" href="tel:+905321511726">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 4h3l1.2 4.2-2 1.2a12.3 12.3 0 0 0 7.4 7.4l1.2-2L20 16v3a1 1 0 0 1-1 1C10.7 20 4 13.3 4 5a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" /></svg>
+              0532 151 17 26
+            </a>
+          </div>
+          <div class="trust-row" aria-label="Güven unsurları">
+            <div class="trust-item">
+              <span class="trust-value">7/24</span>
+              <span class="trust-label">Arıza kaydı ve yönlendirme</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-value">39</span>
+              <span class="trust-label">İstanbul ilçesine servis</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-value">1 yıl</span>
+              <span class="trust-label">Parça ve işçilik garantisi</span>
+            </div>
+          </div>
         </div>
-        <p>&copy; 2026 Profesyonel Web & Dijital Pazarlama Hizmetleri. Tüm Hakları Saklıdır.</p>
-    </footer>
 
-    <script>
-        (function() {
-            const modalOverlay = document.getElementById('modalOverlay');
-            const modalClose = document.getElementById('modalClose');
-            const packageSelect = document.getElementById('package');
-            const openButtons = document.querySelectorAll('[data-package]');
+        <div class="hero-visual reveal" aria-hidden="true">
+          <svg class="service-illustration" viewBox="0 0 430 538" role="img">
+            <defs>
+              <linearGradient id="tank" x1="100" x2="330" y1="80" y2="270">
+                <stop stop-color="#f8fbff" />
+                <stop offset="1" stop-color="#dfeaf5" />
+              </linearGradient>
+              <linearGradient id="water" x1="0" x2="1">
+                <stop stop-color="#2fb8d4" />
+                <stop offset="1" stop-color="#0e9f9a" />
+              </linearGradient>
+              <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#071320" flood-opacity=".28" />
+              </filter>
+            </defs>
+            <rect width="430" height="538" fill="rgba(255,255,255,.02)" />
+            <path d="M0 380C82 340 143 386 214 343C295 294 346 319 430 270V538H0Z" fill="rgba(14,159,154,.16)" />
+            <g filter="url(#soft-shadow)">
+              <rect x="86" y="70" width="258" height="270" rx="18" fill="url(#tank)" />
+              <rect x="112" y="105" width="206" height="114" rx="10" fill="#ffffff" stroke="#cfdae7" stroke-width="3" />
+              <path d="M122 189C155 169 181 204 215 184C250 163 275 188 308 169V211H122Z" fill="url(#water)" opacity=".9" />
+              <rect x="176" y="240" width="78" height="32" rx="16" fill="#10243f" />
+              <circle cx="215" cy="256" r="9" fill="#0e9f9a" />
+              <path d="M215 272v38" stroke="#10243f" stroke-width="12" stroke-linecap="round" />
+              <rect x="158" y="310" width="114" height="66" rx="12" fill="#ffffff" stroke="#cfdae7" stroke-width="3" />
+              <path d="M185 342h60" stroke="#0e9f9a" stroke-width="8" stroke-linecap="round" />
+            </g>
+            <g>
+              <rect x="245" y="365" width="116" height="76" rx="10" fill="#ffffff" opacity=".96" />
+              <rect x="258" y="382" width="90" height="10" rx="5" fill="#d7e2ee" />
+              <rect x="258" y="403" width="58" height="10" rx="5" fill="#0e9f9a" />
+              <circle cx="344" cy="420" r="22" fill="#d99a22" />
+              <path d="m334 420 7 7 15-17" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+            <g>
+              <rect x="58" y="382" width="128" height="82" rx="10" fill="#ffffff" opacity=".96" />
+              <path d="M81 423h82" stroke="#d7e2ee" stroke-width="10" stroke-linecap="round" />
+              <path d="M81 444h58" stroke="#1d6fd6" stroke-width="10" stroke-linecap="round" />
+              <circle cx="93" cy="401" r="12" fill="#22c55e" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
 
-            // Modal açma
-            openButtons.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    const packageName = btn.getAttribute('data-package');
-                    if (packageSelect) {
-                        // Paket seçeneğini otomatik ayarla
-                        for (let i = 0; i < packageSelect.options.length; i++) {
-                            if (packageSelect.options[i].value === packageName) {
-                                packageSelect.selectedIndex = i;
-                                break;
-                            }
-                        }
-                    }
-                    modalOverlay.classList.add('active');
-                    document.body.style.overflow = 'hidden';
-                });
-            });
+    <section class="section" id="hizmetler">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Uzmanlık alanlarımız</span>
+            <h2>Rezervuar tamiri ve servis çözümleri</h2>
+          </div>
+          <p class="section-desc">Rezervuar ustası ve rezervuar tamircisi arayan müşteriler için arızayı yerinde tespit eder, uygun parçayı araç stokundan çıkarır ve işlemi garantiyle tamamlarız.</p>
+        </div>
 
-            // Modal kapatma
-            function closeModal() {
-                modalOverlay.classList.remove('active');
-                document.body.style.overflow = '';
-            }
+        <div class="grid-3">
+          <article class="card service-card reveal">
+            <span class="icon-box blue" aria-hidden="true">
+              <svg width="25" height="25" viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" /></svg>
+            </span>
+            <h3>Mekanizma değişimi</h3>
+            <p>Rezervuar mekanizması değişimi, rezervuar iç takım değişimi, dolum valfi, boşaltma grubu, buton takımı ve çift kademe mekanizmaları marka uyumlu parçalarla yenilenir.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M7.7 14.5 3.5 10.3l1.4-1.4 2.8 2.8 7.4-7.4 1.4 1.4-8.8 8.8Z" /></svg>30-60 dakikada işlem</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M7.7 14.5 3.5 10.3l1.4-1.4 2.8 2.8 7.4-7.4 1.4 1.4-8.8 8.8Z" /></svg>Orijinal veya muadil kaliteli parça</li>
+            </ul>
+          </article>
 
-            modalClose.addEventListener('click', closeModal);
-            modalOverlay.addEventListener('click', (e) => {
-                if (e.target === modalOverlay) closeModal();
-            });
+          <article class="card service-card reveal">
+            <span class="icon-box" aria-hidden="true">
+              <svg width="25" height="25" viewBox="0 0 24 24" fill="none"><path d="M12 3s6 6.5 6 10a6 6 0 0 1-12 0c0-3.5 6-10 6-10Z" stroke="currentColor" stroke-width="2" /><path d="M9 14h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+            </span>
+            <h3>Su kaçırma tamiri</h3>
+            <p>Rezervuar su kaçırıyor, rezervuar sürekli su akıtıyor veya gömme rezervuar su kaçırıyor sorunlarında conta, şamandıra ve mekanizma arızası net şekilde tespit edilir.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M7.7 14.5 3.5 10.3l1.4-1.4 2.8 2.8 7.4-7.4 1.4 1.4-8.8 8.8Z" /></svg>Gereksiz kırma dökme yok</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M7.7 14.5 3.5 10.3l1.4-1.4 2.8 2.8 7.4-7.4 1.4 1.4-8.8 8.8Z" /></svg>Net arıza raporu</li>
+            </ul>
+          </article>
 
-            // ESC tuşu ile kapat
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
-                    closeModal();
-                }
-            });
+          <article class="card service-card reveal">
+            <span class="icon-box gold" aria-hidden="true">
+              <svg width="25" height="25" viewBox="0 0 24 24" fill="none"><path d="M5 5h14v8H5V5Z" stroke="currentColor" stroke-width="2" /><path d="M8 17h8M10 13v4M14 13v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+            </span>
+            <h3>Baskı plakası ve buton</h3>
+            <p>Gömme rezervuar düğmesi çalışmıyor, buton basmıyor veya klozet rezervuarı dolmuyor gibi arızalarda kumanda plakası, bağlantı çubukları ve gömme kutu parçaları ayarlanır.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M7.7 14.5 3.5 10.3l1.4-1.4 2.8 2.8 7.4-7.4 1.4 1.4-8.8 8.8Z" /></svg>Uyumlu model seçimi</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M7.7 14.5 3.5 10.3l1.4-1.4 2.8 2.8 7.4-7.4 1.4 1.4-8.8 8.8Z" /></svg>Temiz montaj</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-            // Form gönderimi (demo amaçlı)
-            const form = document.getElementById('contactForm');
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
-                alert('Başvurunuz alınmıştır! En kısa sürede size dönüş yapacağız. Teşekkür ederiz.');
-                form.reset();
-                closeModal();
-            });
-        })();
-    </script>
+    <section class="section section-soft" id="arama-terimleri">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Google aramalarına uygun içerik</span>
+            <h2>Müşterilerin aradığı hizmetler</h2>
+          </div>
+          <p class="section-desc">Aşağıdaki hizmet başlıkları, rezervuar arızası yaşayan müşterilerin Google'da en sık kullandığı arama terimlerine göre düzenlendi.</p>
+        </div>
+
+        <div class="keyword-grid">
+          <div class="keyword-panel reveal">
+            <h3>En çok aranan rezervuar hizmetleri</h3>
+            <p>İstanbul genelinde rezervuar servisi, rezervuar yedek parça temini ve marka uyumlu tamir hizmeti verilir.</p>
+            <ul class="keyword-list strong">
+              <li>rezervuar tamiri</li>
+              <li>gömme rezervuar tamiri</li>
+              <li>rezervuar servisi</li>
+              <li>klozet rezervuar tamiri</li>
+              <li>rezervuar ustası</li>
+              <li>rezervuar tamircisi</li>
+              <li>rezervuar yedek parça</li>
+            </ul>
+          </div>
+
+          <div class="keyword-panel reveal">
+            <h3>Arıza belirtisine göre servis</h3>
+            <p>Su kaçağı, dolmama, buton basmama ve mekanizma bozulması gibi arızalarda aynı gün çözüm hedeflenir.</p>
+            <ul class="keyword-list">
+              <li>rezervuar su kaçırıyor</li>
+              <li>rezervuar sürekli su akıtıyor</li>
+              <li>gömme rezervuar su kaçırıyor</li>
+              <li>rezervuar iç takım değişimi</li>
+              <li>rezervuar mekanizması değişimi</li>
+              <li>klozet rezervuarı neden dolmuyor</li>
+              <li>gömme rezervuar düğmesi çalışmıyor</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="surec">
+      <div class="container process-wrap">
+        <div class="reveal">
+          <span class="section-kicker">Profesyonel servis akışı</span>
+          <h2>Net fiyat, temiz işçilik, yazılı garanti</h2>
+          <p class="section-desc" style="margin-top: 18px;">Servis süreci baştan sona şeffaf ilerler. Fotoğrafla ön bilgi alabilir, işlem başlamadan fiyatı onaylayabilir ve değişen parçalar için garanti desteği alabilirsiniz.</p>
+          <div class="inspection-panel" style="margin-top: 24px;">
+            <h3>Servis öncesi hızlı tespit</h3>
+            <p>WhatsApp üzerinden gömme rezervuar kapağı ve arıza videosu gönderdiğinizde, marka ve parça uyumu için ön kontrol yapılır.</p>
+            <div class="mini-stats">
+              <div class="mini-stat"><strong>1 yıl</strong><span>Değişen parça ve işçilik garantisi</span></div>
+              <div class="mini-stat"><strong>7/24</strong><span>Arıza kaydı ve randevu yönlendirme</span></div>
+            </div>
+          </div>
+        </div>
+
+        <ol class="process-list reveal">
+          <li>
+            <h3>Fotoğraf veya video gönderin</h3>
+            <p>Rezervuar kapağı, buton ve arıza belirtisi üzerinden ilk değerlendirme yapılır.</p>
+          </li>
+          <li>
+            <h3>Uygun ekip yönlendirilir</h3>
+            <p>İlçenize en yakın gezici servis ekibi aynı gün randevu için dönüş yapar.</p>
+          </li>
+          <li>
+            <h3>Fiyat onayı alınır</h3>
+            <p>İşlem başlamadan önce parça ve işçilik kapsamı açıkça paylaşılır.</p>
+          </li>
+          <li>
+            <h3>Garantiyle teslim edilir</h3>
+            <p>Değişen parçalar test edilir, kullanım bilgilendirmesi yapılır ve garanti süreci başlar.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="markalar">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Marka uyumlu yedek parça</span>
+            <h2>Vitra, Kale, Siamp, Serel, Creavit ve Japar servisi</h2>
+          </div>
+          <p class="section-desc">İnsanlar arama yaparken çoğu zaman marka adıyla arar. Bu nedenle Vitra rezervuar servisi, Kale rezervuar servisi, Siamp rezervuar tamiri ve diğer marka bazlı ihtiyaçlar ayrı ayrı ele alınır.</p>
+        </div>
+        <div class="brand-grid reveal" aria-label="Hizmet verilen markalar">
+          <div class="brand-tile">Vitra</div>
+          <div class="brand-tile">Kale</div>
+          <div class="brand-tile">Siamp</div>
+          <div class="brand-tile">Serel</div>
+          <div class="brand-tile">Creavit</div>
+          <div class="brand-tile">Japar</div>
+        </div>
+
+        <div class="brand-service-grid reveal">
+          <article class="brand-service">
+            <h3>Vitra</h3>
+            <p>Vitra gömme rezervuar tamiri, Vitra rezervuar servisi, Vitra rezervuar yedek parça ve Vitra rezervuar su kaçırıyor arızaları için servis verilir.</p>
+          </article>
+          <article class="brand-service">
+            <h3>Kale</h3>
+            <p>Kale gömme rezervuar tamiri, Kale rezervuar servisi ve Kale rezervuar iç takım değişimi için marka uyumlu parça desteği sağlanır.</p>
+          </article>
+          <article class="brand-service">
+            <h3>Siamp</h3>
+            <p>Siamp rezervuar tamiri ve Siamp iç takım değişimi işlemlerinde dolum, boşaltma ve buton mekanizmaları kontrol edilir.</p>
+          </article>
+          <article class="brand-service">
+            <h3>Serel</h3>
+            <p>Serel rezervuar servisi ve Serel rezervuar tamiri için su kaçırma, dolmama ve mekanizma arızaları giderilir.</p>
+          </article>
+          <article class="brand-service">
+            <h3>Creavit</h3>
+            <p>Creavit rezervuar tamiri ve Creavit gömme rezervuar servisi için iç takım, conta ve baskı plakası işlemleri yapılır.</p>
+          </article>
+          <article class="brand-service">
+            <h3>Japar</h3>
+            <p>Japar rezervuar tamiri ve Japar gömme rezervuar servisi için yedek parça uyumu kontrol edilerek servis planlanır.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="bolgeler">
+      <div class="container area-layout">
+        <div class="reveal">
+          <span class="section-kicker">Gezici servis ağı</span>
+          <h2>İstanbul'un tüm ilçelerine servis</h2>
+          <p class="section-desc" style="margin-top: 18px;">İstanbul rezervuar tamiri, İstanbul gömme rezervuar tamiri ve Avrupa Yakası rezervuar servisi aramalarında öne çıkan bölgeler için gezici servis sistemiyle çalışılır. Esenyurt, Beylikdüzü, Avcılar, Büyükçekmece, Küçükçekmece ve Başakşehir tarafına özellikle hızlı yönlendirme yapılır.</p>
+          <ul class="local-keywords">
+            <li>Esenyurt rezervuar tamiri</li>
+            <li>Beylikdüzü rezervuar tamiri</li>
+            <li>Avcılar rezervuar tamiri</li>
+            <li>Büyükçekmece rezervuar tamiri</li>
+            <li>Küçükçekmece rezervuar tamiri</li>
+            <li>Başakşehir rezervuar tamiri</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/905321511726?text=Merhaba,%20bulundu%C4%9Fum%20il%C3%A7eye%20rezervuar%20servisi%20var%20m%C4%B1%3F" target="_blank" rel="noopener">İlçem için sor</a>
+            <a class="btn btn-secondary" href="tel:+905321511726">Hemen ara</a>
+          </div>
+        </div>
+        <div class="districts reveal">
+          <span>Adalar</span><span>Arnavutköy</span><span>Ataşehir</span><span>Avcılar</span>
+          <span>Bağcılar</span><span>Bahçelievler</span><span>Bakırköy</span><span>Başakşehir</span>
+          <span>Bayrampaşa</span><span>Beşiktaş</span><span>Beykoz</span><span>Beylikdüzü</span>
+          <span>Beyoğlu</span><span>Büyükçekmece</span><span>Çatalca</span><span>Çekmeköy</span>
+          <span>Esenler</span><span>Esenyurt</span><span>Eyüpsultan</span><span>Fatih</span>
+          <span>Gaziosmanpaşa</span><span>Güngören</span><span>Kadıköy</span><span>Kağıthane</span>
+          <span>Kartal</span><span>Küçükçekmece</span><span>Maltepe</span><span>Pendik</span>
+          <span>Sancaktepe</span><span>Sarıyer</span><span>Silivri</span><span>Sultanbeyli</span>
+          <span>Sultangazi</span><span>Şile</span><span>Şişli</span><span>Tuzla</span>
+          <span>Ümraniye</span><span>Üsküdar</span><span>Zeytinburnu</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="garanti">
+      <div class="container">
+        <div class="guarantee-banner reveal">
+          <div class="seal" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 3 14.6 8.6l6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7L12 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" /></svg>
+          </div>
+          <div>
+            <strong>Değişimi yapılan tüm ürünlerde 1 yıl garanti</strong>
+            <span>Parça ve işçilik kapsamı işlem öncesi açıklanır; aynı arızada garanti desteği sağlanır.</span>
+          </div>
+          <a class="btn btn-dark" href="https://wa.me/905321511726?text=Merhaba,%20garantili%20rezervuar%20tamiri%20i%C3%A7in%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener">Garanti hakkında sor</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sss">
+      <div class="container">
+        <div class="section-head reveal" style="grid-template-columns: 1fr; text-align: center; max-width: 760px; margin-left: auto; margin-right: auto;">
+          <div>
+            <span class="section-kicker">Sıkça sorulan sorular</span>
+            <h2>Servis öncesi merak edilenler</h2>
+          </div>
+        </div>
+
+        <div class="faq reveal">
+          <details>
+            <summary>Rezervuar neden su kaçırır?<svg class="faq-arrow" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></summary>
+            <p>Rezervuar neden su kaçırır sorusunun en yaygın cevapları boşaltma contası aşınması, dolum valfi arızası, şamandıra ayarsızlığı veya mekanizma kireçlenmesidir. Yerinde tespitle doğru parça belirlenir.</p>
+          </details>
+          <details>
+            <summary>Gömme rezervuar nasıl tamir edilir?<svg class="faq-arrow" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></summary>
+            <p>Gömme rezervuar nasıl tamir edilir sorusunda işlem genellikle kumanda kapağı üzerinden başlar. Mekanizma çıkarılır, conta ve dolum grubu kontrol edilir, gerekirse iç takım değişimi yapılır. Çoğu işlem kırma dökme gerektirmez.</p>
+          </details>
+          <details>
+            <summary>Rezervuar sürekli akıyor ne yapmalıyım?<svg class="faq-arrow" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></summary>
+            <p>Rezervuar sürekli akıyor ne yapmalıyım diyorsanız önce ara musluğu kapatıp su kaybını durdurabilirsiniz. Ardından dolum valfi, boşaltma contası veya iç takım arızası için servis talebi oluşturmanız gerekir.</p>
+          </details>
+          <details>
+            <summary>Klozet rezervuarı neden dolmuyor?<svg class="faq-arrow" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></summary>
+            <p>Klozet rezervuarı neden dolmuyor sorunu genellikle ara musluk, filtre tıkanıklığı, dolum valfi veya şamandıra kaynaklıdır. Parça kontrolü yapılarak uygun onarım veya değişim planlanır.</p>
+          </details>
+          <details>
+            <summary>Gömme rezervuar düğmesi çalışmıyor, ne yapılır?<svg class="faq-arrow" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></summary>
+            <p>Gömme rezervuar düğmesi çalışmıyor ise baskı plakası, bağlantı çubukları veya boşaltma mekanizması ayarsız olabilir. Kumanda kapağı sökülerek ayar ve parça kontrolü yapılır.</p>
+          </details>
+          <details>
+            <summary>Rezervuar iç takımı nasıl değiştirilir?<svg class="faq-arrow" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></summary>
+            <p>Rezervuar iç takımı nasıl değiştirilir sorusunda doğru marka ve model seçimi önemlidir. Eski dolum ve boşaltma grubu sökülür, uyumlu yeni iç takım takılır, sızdırmazlık ve dolum seviyesi test edilir.</p>
+          </details>
+          <details>
+            <summary>Fiyatı önceden öğrenebilir miyim?<svg class="faq-arrow" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></summary>
+            <p>WhatsApp'tan fotoğraf veya kısa video göndererek rezervuar tamiri, gömme rezervuar servisi, yedek parça ve iç takım değişimi için ön fiyat alabilirsiniz. Kesin fiyat, yerinde tespit sonrası işlem başlamadan önce onayınıza sunulur.</p>
+          </details>
+          <details>
+            <summary>Hangi markalara servis veriyorsunuz?<svg class="faq-arrow" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></summary>
+            <p>Vitra gömme rezervuar tamiri, Kale rezervuar servisi, Siamp rezervuar tamiri, Serel rezervuar tamiri, Creavit gömme rezervuar servisi ve Japar gömme rezervuar servisi dahil yaygın markalarda mekanizma, conta, buton ve iç takım işlemleri yapılır.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-box reveal">
+        <div>
+          <h2>Rezervuar arızasını bugün çözelim</h2>
+          <p>Arıza fotoğrafını gönderin; uygun parça, tahmini servis süresi ve fiyat aralığı için hızlı dönüş yapalım.</p>
+        </div>
+        <div class="hero-actions" style="margin-top: 0;">
+          <a class="btn btn-primary" href="https://wa.me/905321511726?text=Merhaba,%20rezervuar%20ar%C4%B1zas%C4%B1%20i%C3%A7in%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener">WhatsApp'tan yaz</a>
+          <a class="btn btn-secondary" href="tel:+905321511726">Telefon et</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Servis Rezervuar</h3>
+          <p>İstanbul genelinde rezervuar tamiri, gömme rezervuar tamiri, klozet rezervuar tamiri, iç takım değişimi, su kaçırma onarımı ve marka uyumlu yedek parça servisi.</p>
+          <p>Yetkili: Gökhan Yardımcı</p>
+        </div>
+        <div>
+          <h3>Hizmetler</h3>
+          <p>Rezervuar servisi<br />Rezervuar mekanizması değişimi<br />Gömme rezervuar su kaçırıyor<br />Rezervuar iç takım değişimi</p>
+        </div>
+        <div>
+          <h3>İletişim</h3>
+          <p><a href="tel:+905321511726">0532 151 17 26</a><br /><a href="https://wa.me/905321511726" target="_blank" rel="noopener">WhatsApp destek</a><br />İstanbul - Tüm ilçeler</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Servis Rezervuar. Tüm hakları saklıdır.</span>
+        <a href="#icerik">Yukarı çık</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="sticky-call" href="https://wa.me/905321511726?text=Merhaba,%20rezervuar%20ar%C4%B1zas%C4%B1%20i%C3%A7in%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener" aria-label="WhatsApp destek">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2A9.9 9.9 0 0 0 3.5 16.93L2.25 21.5l4.68-1.22A9.95 9.95 0 1 0 12.04 2Zm5.82 14.24c-.24.67-1.2 1.23-1.87 1.31-.5.06-1.13.09-1.82-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.8-4.17-4.95-4.36-.14-.19-1.18-1.57-1.18-3 0-1.43.75-2.13 1.02-2.42.27-.3.58-.37.78-.37h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.08.15.12.32.03.51-.09.2-.14.32-.29.49-.15.17-.31.38-.44.51-.15.14-.3.3-.13.59.17.29.74 1.22 1.58 1.98 1.09.97 2.01 1.27 2.3 1.41.29.15.46.12.63-.07.17-.2.72-.84.91-1.13.19-.29.39-.24.66-.15.27.1 1.72.81 2.01.95.29.15.49.22.56.34.07.13.07.73-.17 1.4Z" /></svg>
+    WhatsApp Destek
+  </a>
+
+  <script>
+    const header = document.getElementById('site-header');
+    const menuButton = document.getElementById('menu-button');
+    const navLinks = document.getElementById('nav-links');
+    const year = document.getElementById('year');
+
+    year.textContent = new Date().getFullYear();
+
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('is-scrolled', window.scrollY > 8);
+    });
+
+    menuButton.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('is-open');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Menüyü kapat' : 'Menüyü aç');
+    });
+
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('is-open');
+        menuButton.setAttribute('aria-expanded', 'false');
+        menuButton.setAttribute('aria-label', 'Menüyü aç');
+      });
+    });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach((element) => {
+      revealObserver.observe(element);
+    });
+  </script>
 </body>
 </html>
